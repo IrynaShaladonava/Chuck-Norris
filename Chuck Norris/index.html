@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body class="container">
+    <!-- строка поиска -->
+    <div class="container">
+    <section>
+        <nav class="navbar">
+            <form class="container-fluid" onsubmit="searchChuckNorrisJokes(event)">
+              <div class="input-group">
+                
+                <input type="text" id="searchInput" class="form-control" placeholder="Search a joke..." aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+            </form>
+          </nav>
+    </section>
+    </div>
+
+    <!-- где будет появляться шутка -->
+    <div class="container">
+    <section id="jokesContainer">
+        <div class="container-fluid">          
+        </div>
+    </section>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/style.js"></script>
+</body>
+</html>

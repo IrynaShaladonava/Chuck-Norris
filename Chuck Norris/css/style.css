@@ -1,0 +1,44 @@
+.container{
+    background-color: black;
+}
+.navbar{
+    margin-top: 50px;
+    
+}
+#searchInput {
+    margin-left: -10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+#jokesContainer{
+    margin-top: 20px;
+}
+
+.joke-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+}
+
+.joke-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    flex: 1 0 calc(25% - 5px);
+    margin-right: 5px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    overflow: hidden; 
+    white-space: normal; 
+    text-overflow: ellipsis;  
+    height: auto;  
+}
+
+
+
